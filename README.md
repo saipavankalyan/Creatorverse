@@ -32,7 +32,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-https://github.com/saipavankalyan/Creatorverse/blob/main/CreatorverseWalkthrough.mp4
+<video width="420" height="240" controls>
+  <source src="./CreatorverseWalkthrough.mp4" type="video/mp4">
+</video>
 
 <!-- Replace this with whatever GIF tool you used! -->
 
