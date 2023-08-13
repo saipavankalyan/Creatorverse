@@ -1,0 +1,61 @@
+.creatorCard {
+  $socialIconSize: 15px;
+
+  width: 500px;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: start;
+  flex-direction: column;
+  box-sizing: border-box;
+
+  .divContainer {
+    width: 100%;
+  }
+
+  .nameContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    .name {
+      color: #fff;
+      font-size: 32px;
+      font-weight: bold;
+      margin: 0;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: flex-end;
+
+      .icon {
+        margin: 0 10px;
+        font-size: 20px;
+        color: white;
+      }
+    }
+  }
+
+  .socialIconContainer {
+    margin-top: 10px;
+    margin-left: -15px;
+
+    .socialIcon {
+      font-size: 20px;
+      color: white;
+      margin: 0 15px;
+    }
+  }
+
+  .description {
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 550;
+  }
+}

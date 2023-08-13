@@ -1,0 +1,65 @@
+.viewCreatorPage {
+  $imgWidth: 225px;
+  $imgHeight: 275px;
+  $creatorNameColor: white;
+  $descriptionColor: rgba(255, 255, 255, 127);
+  background: #1a1a1a;
+  box-sizing: border-box;
+  padding: 20px 40px;
+
+  .creatorDetails {
+    display: flex;
+    align-items: start;
+    justify-content: start;
+
+    .creatorImg {
+      width: $imgWidth;
+      height: $imgHeight;
+      background-size: cover;
+      border-radius: 6px;
+      border: 1px solid $creatorNameColor;
+    }
+
+    .detailsHolder {
+      margin-left: 60px;
+
+      .creatorName {
+        font-size: 32px;
+        color: $creatorNameColor;
+        font-weight: bold;
+      }
+
+      .description {
+        font-size: 24px;
+        color: $descriptionColor;
+        margin-bottom: 10px;
+      }
+
+      .socialHandle {
+        margin: 10px 0;
+        font-weight: bold;
+        color: white;
+      }
+
+      .socialLink {
+        display: flex;
+        align-items: center;
+        color: white;
+
+        span {
+          font-size: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  .buttonContainer {
+    margin: 40px;
+    padding: 0 40px;
+
+    .margBut {
+      margin-left: 20px;
+    }
+  }
+}

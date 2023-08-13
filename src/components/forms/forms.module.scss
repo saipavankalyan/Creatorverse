@@ -1,0 +1,33 @@
+.formField {
+  color: black;
+  margin-bottom: 25px;
+
+  .label {
+    display: block;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+  }
+
+  .labelIcon {
+    font-size: 20px;
+    color: white;
+    margin-right: 15px;
+  }
+
+  .description {
+    font-size: 15px;
+    font-style: italic;
+    color: white;
+  }
+
+  .input {
+    width: 100%;
+    color: black;
+    background: white;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 4px;
+    resize: none;
+  }
+}

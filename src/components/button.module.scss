@@ -1,0 +1,18 @@
+.button {
+  color: #f7f7f7;
+  font-size: 24px;
+  font-weight: bolder;
+  min-width: 200px;
+  padding: 15px 30px;
+}
+
+.edit {
+  @extend .button;
+  background: #5185B4;
+}
+
+.delete {
+  @extend .button;
+  background: #FF3733;
+}
+
