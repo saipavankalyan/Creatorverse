@@ -32,12 +32,9 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<video width="420" height="240" controls>
-  <source src="./CreatorverseWalkthrough.mp4" type="video/mp4">
-</video>
+https://github.com/saipavankalyan/Creatorverse/assets/30022830/e50c056b-d038-469f-a8b5-d7ead09cd0e2
 
 <!-- Replace this with whatever GIF tool you used! -->
-
 GIF created with the default MacOS screen recorder.
 
 <!-- Recommended tools:
